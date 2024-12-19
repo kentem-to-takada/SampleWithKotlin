@@ -31,7 +31,7 @@ sequenceDiagram
 
     User ->> JS: アプリを閉じる／機能を停止
     JS ->> Native: stopCompassUpdates()を呼び出し
-    Native ->> Sensor: センサーリスナー解除／リソース解放
+    Native ->> Sensors: センサーリスナー解除／リソース解放
 ```
 
 ## 音声認識機能
